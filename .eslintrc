@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": true,
+    "es6":true,
+    "jest":true
+  },
+  "globals": {
+    "require": true,
+    "module":true,
+    "window":true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "semi": [2, "always"],
+    "no-undef" : [2]
+  }
+}
